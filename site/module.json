@@ -1,0 +1,30 @@
+{
+  "name": "foundryvtt-not-srd",
+  "title": "Non-SRD Compendia",
+  "description": "D&D 5e content that is not part of the included SRD material",
+  "version": "0.0.1.0",
+  "author": "Darkenergy",
+  "manifest": "http://kpogl.wdfiles.com/local--files/home:home/module.json",
+  "download": "http://kpogl.wdfiles.com/local--files/home:home/koboldpressogl.zip",
+  "systems": ["dnd5e"],
+  "scripts": ["kpoglhacks.js"],
+  "styles": [],
+  "packs": [
+    {
+      "name": "koboldpressmonsters",
+      "label": "OGL Kobold Press Monsters",
+      "system": "dnd5e",
+      "path": "packs/KPmonsters.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "koboldpressspells",
+      "label": "OGL Kobold Press Spells",
+      "system": "dnd5e",
+      "path": "packs/KPspells.db",
+      "entity": "Item"
+    }
+  ],
+  "minimumCoreVersion": "0.7.0",
+  "compatibleCoreVersion": "0.8.7"
+}
