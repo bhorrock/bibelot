@@ -4,27 +4,20 @@
   "description": "D&D 5e content that is not part of the included SRD material",
   "version": "0.0.1.0",
   "author": "Darkenergy",
-  "manifest": "http://kpogl.wdfiles.com/local--files/home:home/module.json",
-  "download": "http://kpogl.wdfiles.com/local--files/home:home/koboldpressogl.zip",
+  "manifest": "https://raw.githubusercontent.com/bhorrock/foundryvtt-not-srd/main/site/module.json",
+  "download": "https://raw.githubusercontent.com/bhorrock/foundryvtt-not-srd/main/site/foundryvtt-not-srd.zip",
   "systems": ["dnd5e"],
-  "scripts": ["kpoglhacks.js"],
+  "scripts": [],
   "styles": [],
   "packs": [
     {
-      "name": "koboldpressmonsters",
-      "label": "OGL Kobold Press Monsters",
+      "name": "spells-non-srd",
+      "label": "Spells, Non-SRD",
       "system": "dnd5e",
-      "path": "packs/KPmonsters.db",
-      "entity": "Actor"
-    },
-    {
-      "name": "koboldpressspells",
-      "label": "OGL Kobold Press Spells",
-      "system": "dnd5e",
-      "path": "packs/KPspells.db",
+      "path": "packs/spells-non-srd.db",
       "entity": "Item"
     }
   ],
-  "minimumCoreVersion": "0.7.0",
+  "minimumCoreVersion": "0.7.10",
   "compatibleCoreVersion": "0.8.7"
 }
