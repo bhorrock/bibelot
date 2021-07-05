@@ -16,7 +16,7 @@ class Bibelot {
             scope: "world",
             config: true,
             type: Boolean,
-            default: true
+            default: false
         });
 
         // Test if another module is active for conditional code

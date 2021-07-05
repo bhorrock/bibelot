@@ -8,8 +8,9 @@
     "author": "darkenergy",
     "manifest": "https://raw.githubusercontent.com/bhorrock/bibelot/main/release/module.json",
     "download": "https://raw.githubusercontent.com/bhorrock/bibelot/main/release/0.0.4/bibelot.zip",
-    "systems": ["dnd5e"],
+    "system": ["dnd5e"],
     "scripts": ["bibelot-startup.js"],
+    "esmodules": [],
     "styles": [],
     "packs": [
         {
