@@ -6,7 +6,7 @@
     "minimumCoreVersion": "0.7.10",
     "compatibleCoreVersion": "0.8.7",
     "author": "darkenergy",
-    "manifest": "https://raw.githubusercontent.com/bhorrock/bibelot/main/release/0.0.4/module.json",
+    "manifest": "https://raw.githubusercontent.com/bhorrock/bibelot/main/release/module.json",
     "download": "https://raw.githubusercontent.com/bhorrock/bibelot/main/release/0.0.4/bibelot.zip",
     "systems": ["dnd5e"],
     "scripts": ["bibelot-startup.js"],
