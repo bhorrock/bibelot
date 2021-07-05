@@ -1,0 +1,19 @@
+{
+  "name": "bibelot",
+  "version": "0.0.3",
+  "description": "A collection of Foundry VTT compatible gaming assets for the D&D 5e system. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhorrock/bibelot.git"
+  },
+  "author": "Blaine Horrocks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhorrock/bibelot/issues"
+  },
+  "homepage": "https://github.com/bhorrock/bibelot#readme"
+}
