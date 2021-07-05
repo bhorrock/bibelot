@@ -1,0 +1,65 @@
+{
+    "name": "bibelot",
+    "title": "Bibelot",
+    "description": "D&D 5e Compendia to enhance your game.   Extra items, spells, macros etc. etc.",
+    "version": "0.0.3",
+    "minimumCoreVersion": "0.7.10",
+    "compatibleCoreVersion": "0.8.7",
+    "author": "darkenergy",
+    "manifest": "https://raw.githubusercontent.com/bhorrock/bibelot/main/release/0.0.3/module.json",
+    "download": "https://raw.githubusercontent.com/bhorrock/bibelot/main/release/0.0.3/bibelot.zip",
+    "systems": ["dnd5e"],
+    "scripts": ["bibelot-startup.js"],
+    "styles": [],
+    "packs": [
+        {
+            "name": "class-features-bibelot",
+            "label": "Class Features (Bibelot)",
+            "system": "dnd5e",
+            "path": "packs/class-features-bibelot.db",
+            "entity": "Item"
+        },
+        {
+            "name": "items-bibelot",
+            "label": "Items (Bibelot)",
+            "system": "dnd5e",
+            "path": "packs/items-bibelot.db",
+            "entity": "Item"
+        },
+        {
+            "name": "macros-bibelot",
+            "label": "Macros (Bibelot)",
+            "system": "dnd5e",
+            "path": "packs/macros-bibelot.db",
+            "entity": "Macro"
+        },
+        {
+            "name": "monster-features-bibelot",
+            "label": "Monster Features (Bibelot)",
+            "system": "dnd5e",
+            "path": "packs/monster-features-bibelot.db",
+            "entity": "Item"
+        },
+        {
+            "name": "racial-features-bibelot",
+            "label": "Racial Features (Bibelot)",
+            "system": "dnd5e",
+            "path": "packs/racial-features-bibelot.db",
+            "entity": "Item"
+        },
+        {
+            "name": "monsters-bibelot",
+            "label": "Monsters (Bibelot)",
+            "system": "dnd5e",
+            "path": "packs/monsters-bibelot.db",
+            "entity": "Actor"
+        },
+        {
+            "name": "spells-bibelot",
+            "label": "Spells (Bibelot)",
+            "system": "dnd5e",
+            "path": "packs/spells-bibelot.db",
+            "entity": "Item"
+        }
+    ]
+}
