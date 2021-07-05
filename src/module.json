@@ -1,8 +1,8 @@
 {
     "name": "foundryvtt-not-srd",
-    "title": "Non-SRD Compendia",
-    "description": "D&D 5e content that is not part of the included SRD material.   Extra items, spells, macros etc. etc.",
-    "version": "0.0.1",
+    "title": "Bibelot",
+    "description": "D&D 5e Compendia to enhance your game.   Extra items, spells, macros etc. etc.",
+    "version": "0.0.2",
     "minimumCoreVersion": "0.7.10",
     "compatibleCoreVersion": "0.8.7",
     "author": "darkenergy",
