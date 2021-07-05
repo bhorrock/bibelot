@@ -166,7 +166,22 @@ class Bibelot {
         // }
     }
 
-
+    refreshAll() {
+      if (!this._isPrimaryGamemaster()) {
+        return;
+      }
+      console.log(BIBLT.LOG_PREFIX, "Refreshing all");
+      // this._queueAsync(requestBatch => {
+      //   game.scenes.forEach(scene => {
+      //     this._getInvalidReplicatedTokensForScene(scene)
+      //         .forEach(token => requestBatch.deleteToken(scene, token._id));
+      //
+      //     scene.data.drawings
+      //         .filter(r => this._hasRegionFlag(r.data, "source"))
+      //         .forEach(r => this._updateAllReplicatedTokensForSourceRegion(requestBatch, scene, r.data));
+      //   });
+      // });
+    }
 
     _onSocket(data) {
         if (!this._isPrimaryGamemaster()) {
@@ -178,7 +193,8 @@ class Bibelot {
             if (!scene || !user) {
                 return;
             }
-            const note = scene.data.notes.find(note => note.id === data.note) ? .data;
+
+            const note = scene.data.notes.find(note => note.id === data.note)?.data;
             if (note) {
                 // this._doMapNoteTeleport(scene, note, user);
             }
