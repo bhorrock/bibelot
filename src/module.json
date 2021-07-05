@@ -41,10 +41,10 @@
             "entity": "Item"
         },
         {
-            "name": "monster-features-bibelot",
-            "label": "Monster Features (Bibelot)",
+            "name": "racial-features-bibelot",
+            "label": "Racial Features (Bibelot)",
             "system": "dnd5e",
-            "path": "packs/monster-features-bibelot.db",
+            "path": "packs/racial-features-bibelot.db",
             "entity": "Item"
         },
         {
