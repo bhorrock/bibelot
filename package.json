@@ -1,6 +1,6 @@
 {
   "name": "bibelot",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A collection of Foundry VTT compatible gaming assets for the D&D 5e system. ",
   "main": "index.js",
   "scripts": {
